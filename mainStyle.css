@@ -390,7 +390,7 @@ h3 {
 .contact-us{
     margin:100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/industry.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(Images/industry.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
