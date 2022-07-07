@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DN CARBONS</title>
+    <link rel="stylesheet" href="mainStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+
+
+
+</head>
+
+<body>
+    <section class="aboutus-header">
+        <nav>
+            <a href="index.html"><img class="logo" src="Images/name-with-logo.png"></a>
+
+            <div class="page-links" id="pageLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <!-- <i class="fa-solid fa-bars"></i> -->
+
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">PRODUCTS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+<!-- ----------------About Us---------------- -->
+
+ <h1>About Us</h1>
+</section>
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Welcome to DN Carbons</h1>
+            <p>We are the leading producers of fine carbon products from wet and dry coconut shells. We deliver
+                premium quality products that are regulated by industry standards.<br> Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+            <br>
+            <a href="" class="explore-btn blue-btn">EXPLORE NOW</a>
+            <br>
+        </div>
+
+        <div class="about-col">
+            <!-- <img src="Images/annamalaiyar-transports.jpg"> -->
+            <img src="Images/transports-resized.PNG">
+        </div>
+
+    </div>
+</section>
+
+    <!-- --------Moto------- -->
+
+    
+    <!-- -------products-------- -->
+    
+
+    <!-- -------Footer------ -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We are the leading producers of fine carbon products from wet and dry coconut shells.<br>We deliver
+            premium quality products that are regulated by industry standards</p>
+   
+        <div  class="socials">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        
+   </section>
+
+
+
+
+
+
+
+    <!-- ------Javascript function------- -->
+    <script>
+        var pageLinks = document.getElementById("pageLinks");
+
+        function showMenu() {
+            pageLinks.style.right = "0";
+
+        }
+
+        function hideMenu() {
+            pageLinks.style.right = "-200px";
+
+        }
+
+
+    </script>
+
+
+
+
+
+</body>
+
+
+</html>
