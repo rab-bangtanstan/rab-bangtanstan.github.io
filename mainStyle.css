@@ -541,10 +541,12 @@ h3 {
 }
 
 p.white-text{
-    color: #fff;
+    /* color:#777; */
+    color:#fff;
 }
 
 .bold-text{
-    color:#7cb7d5;
-    font-weight: 400;
+    color:#8ec2dd;
+    /* color:#fff; */
+    font-weight: bold;
 }
