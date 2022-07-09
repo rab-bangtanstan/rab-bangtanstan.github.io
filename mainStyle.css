@@ -530,11 +530,6 @@ h3 {
     color: #fff;
 }
 
-
-
-
-
-
 /* .about-col a{
     padding-left: 10px;
 } */
@@ -543,4 +538,13 @@ h3 {
     .about-col img{
         padding-top: 35px;
     }
+}
+
+p.white-text{
+    color: #fff;
+}
+
+.bold-text{
+    color:#7cb7d5;
+    font-weight: 400;
 }
