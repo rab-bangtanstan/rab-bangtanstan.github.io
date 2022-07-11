@@ -66,10 +66,11 @@ nav {
     content: '';
     width: 0%;
     height: 2px;
-    background: #1a8dc6;
+    background:#1a8dc6;
     display: block;
     margin: auto;
     transition: 0.5s;
+
 }
 
 .page-links ul li:hover::after {
