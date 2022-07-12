@@ -25,7 +25,7 @@
 </head>
 
 <body>
-    <section class="background">
+    <section class="background" id="bg">
         <nav>
             <a href="index.html"><img class="logo" src="Images/name-with-logo.png"></a>
 
@@ -55,7 +55,7 @@
 
     <!-- --------Moto------- -->
 
-    <section class="Moto">
+    <section class="Moto" id="moto">
         <h1>Why Choose Us?</h1>
         <p>Lorem ipsum dolor sit amet, consecteture adipiscing elit.</p>
 
@@ -129,7 +129,7 @@
 
     </section> -->
 
-    <section class="products">
+    <section class="products" id="prod">
         <h1>Our Products</h1>
         <p>Lorem ipsum dolor sit amet, consecteture adipiscing elit.</p>
 
@@ -187,14 +187,14 @@
         </div> -->
     </section>
 
-    <section class="contact-us">
+    <section class="contact-us" id="contact">
         <h1>Buy our premium quality coconut shell charcoal </h1>
         <a href="contactUs.html" class="know-more-btn">CONTACT US</a>    
     </section>
 
     <!-- -------Footer------ -->
 
-    <section class="footer">
+    <section class="footer" id="foot">
         <h4>About Us</h4>
         <p>We are the leading producers of fine carbon products from wet and dry coconut shells.<br>We deliver
             premium quality products that are regulated by industry standards</p>
@@ -217,14 +217,30 @@
     <!-- ------Javascript function------- -->
     <script>
         var pageLinks = document.getElementById("pageLinks");
+        var indexBackground = document.getElementById("bg");
+        var motoSection = document.getElementById("moto");
+        var prodSection = document.getElementById("prod");
+        var contactSection = document.getElementById("contact");
+        var footerSection = document.getElementById("foot");
 
         function showMenu() {
             pageLinks.style.right = "0";
+            // indexBackground.style.display = "none";
+            motoSection.style.display = "none";
+            prodSection.style.display = "none";
+            contactSection.style.display = "none";
+            footerSection.style.display = "none";
+
 
         }
 
         function hideMenu() {
             pageLinks.style.right = "-200px";
+            motoSection.style.display = "block";
+            prodSection.style.display = "block";
+            contactSection.style.display = "block";
+            footerSection.style.display = "block";
+
 
         }
 
