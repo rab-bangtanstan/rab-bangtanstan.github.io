@@ -393,7 +393,7 @@ h3 {
 .contact-us{
     margin:100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(Images/industry.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Images/industry.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -455,7 +455,7 @@ h3 {
 .aboutus-header{
     height: 65vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(Images/industry.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(Images/industry.jpg);
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/annamalaiyar-transports.jpg); */
     background-position: center;
     background-size: cover;
@@ -623,7 +623,7 @@ p.white-text{
 .products-page-header{
     height: 65vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(Images/burning-charcoal2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(Images/burning-charcoal2.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
