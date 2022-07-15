@@ -1,5 +1,6 @@
 html, body {
     overflow-x: hidden;
+    scroll-behavior: smooth;
     /* overflow-y: hidden; */
   }
 
@@ -14,6 +15,7 @@ body {
     font-family: 'Poppins', sans-serif;
 
 }
+
 
 
 
@@ -175,6 +177,7 @@ nav .fa-solid {
     margin: auto;
     text-align: center;
     padding-top: 100px;
+    
 
 }
 
