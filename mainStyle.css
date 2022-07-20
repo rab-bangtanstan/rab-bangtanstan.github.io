@@ -159,7 +159,7 @@ nav .fa-solid {
 @media(max-width: 700px) {
 
     .text-box h1 {
-        /* padding-top: ; */
+       /* padding-top: 10%; */
         font-size: 20px;
 
     }
@@ -207,7 +207,7 @@ nav .fa-solid {
     }
 
     .navigation{
-        height: 50px;
+        height: 54px;
         
         /* background-color: #fff;
         padding-top: 4%;
