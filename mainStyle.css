@@ -140,13 +140,18 @@ nav {
     background: transparent;
     position: relative;
     cursor: pointer;
+    border: 1px solid #1a8dc6;
+    background: #1a8dc6;
+    border-radius: 5px;
 
 }
 
 .know-more-btn:hover {
-    border: 1px solid #1a8dc6;
-    background: #1a8dc6;
-    transition: 1s;
+    /* border: 1px solid #1a8dc6;
+    background: #1a8dc6; */
+    filter: drop-shadow(0 0 0.5em #1a8dc6);
+    transition: 0.5s;
+  
 }
 
 nav .fa-solid {

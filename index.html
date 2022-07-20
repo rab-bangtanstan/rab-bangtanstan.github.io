@@ -34,7 +34,7 @@
                 <!-- <i class="fa-solid fa-bars"></i> -->
 
                 <ul>
-                    <li><a href="index.html">HOME</a></li>
+                    <li><a id="menu-home" href="index.html">HOME</a></li>
                     <li><a href="aboutUs.html">ABOUT US</a></li>
                     <li><a href="facilities.html">FACILITIES</a></li>
                     <li><a href="products.html">PRODUCTS</a></li>
@@ -230,6 +230,10 @@
         var contactSection = document.getElementById("contact");
         var footerSection = document.getElementById("foot");
 
+        var navigationHome = document.getElementById("menu-home");
+
+        // navigationHome.style = "color:#1a8dc6";
+
         function showMenu() {
             pageLinks.style.right = "0";
             // indexBackground.style.display = "none";
@@ -237,8 +241,7 @@
             prodSection.style.display = "none";
             contactSection.style.display = "none";
             footerSection.style.display = "none";
-
-
+             navigationHome.style = "color:#fff";
         }
 
         function hideMenu() {
@@ -247,8 +250,7 @@
             prodSection.style.display = "block";
             contactSection.style.display = "block";
             footerSection.style.display = "block";
-
-
+            navigationHome.style = "color:black";
         }
 
 
