@@ -48,7 +48,7 @@ background-color: #fff;
 
 
 .logo {
-    width: min(50vw, 300px);
+    width: min(35vw, 200px);
     /* width: 10x;
     height:10px;
     max-width: 10px; */
@@ -56,7 +56,7 @@ background-color: #fff;
     /* height: 70px; */
     cursor: pointer;
     /* box-shadow: 0 0 0px 0px rgba(255, 255, 255, 0.7); */
-    filter: drop-shadow(0 0 0.5rem rgb(247, 247, 247));
+    filter: drop-shadow(0rem 0rem 0.4rem rgb(247, 247, 247));
     /* filter: drop-shadow(0 0 0.5rem #1a8dc6); */
     /* filter: drop-shadow(0 0 0.75rem #1d2d4f); */
     border-radius: 50px;
