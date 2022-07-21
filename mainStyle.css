@@ -140,6 +140,7 @@ nav {
     background: transparent;
     position: relative;
     cursor: pointer;
+    
     /* border: 1px solid #1a8dc6;
     background: #1a8dc6; */
     /* border-radius: 5px; */
@@ -149,6 +150,7 @@ nav {
 .know-more-btn:hover {
     border: 1px solid #1a8dc6;
     background: #1a8dc6;
+    filter: drop-shadow(0 0 0.25em #1a8dc6);
     /* filter: drop-shadow(0 0 0.5em #1a8dc6); */
     transition: 0.5s;
   
@@ -512,7 +514,7 @@ h3 {
 /* ----------------------about us ------------------ */
 
 .aboutus-header{
-    height: 65vh;
+    height: 80vh;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(Images/industry.jpg);
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/annamalaiyar-transports.jpg); */
@@ -524,7 +526,7 @@ h3 {
 }
 
 .aboutus-header h1{
-    margin-top: 100px;
+    margin-top: 12%;
 }
 
 .about-us{
@@ -597,6 +599,10 @@ h3 {
 @media(max-width: 700px) {
     .about-col img{
         padding-top: 35px;
+    }
+
+    .aboutus-header h1{
+        margin-top: 50%;
     }
 }
 
@@ -679,7 +685,7 @@ p.white-text{
 
 /* -------------products page--------------- */
 
-.products-page-header{
+/* .products-page-header{
     height: 65vh;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(Images/burning-charcoal2.jpg);
@@ -692,7 +698,7 @@ p.white-text{
 
 .products-page-header h1{
     margin-top: 100px;
-}
+} */
 
 
 
@@ -704,7 +710,7 @@ p.white-text{
 }
 
 .prod-page-row{
-    margin-top: 5%;
+    margin-top: 1%;
     display: flex;
     justify-content: space-between;
     

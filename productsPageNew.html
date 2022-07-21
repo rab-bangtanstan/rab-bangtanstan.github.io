@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DN CARBONS</title>
+    <link rel="stylesheet" href="mainStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+
+
+
+</head>
+
+<body>
+    <section class="aboutus-header">
+        <nav class="navigation">
+            <a href="index.html"><img class="logo" src="Images/logos/white-logo-bgremoved.png"></a>
+
+            <div class="page-links" id="pageLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <!-- <i class="fa-solid fa-bars"></i> -->
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="aboutUs.html">ABOUT US</a></li>
+                    <li><a href="facilities.html">FACILITIES</a></li>
+                    <li><a href="productsPageNew.html">PRODUCTS</a></li>
+                    <li><a href="contactUs.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+<!-- ----------------Products Page--------------- -->
+
+ <h1>Products</h1>
+
+</section>
+
+
+<section class = "products-page">
+
+    <div class = "prod-page-row">
+
+        <div class = "prod-page-col1">
+            <img src="Images/coco-shells.jpg">
+            <div class ="prod-page-coconut">
+                <h2>Coconut Shell</h2>
+                <p>Product description</p>
+                
+            </div>
+            
+
+         </div>
+
+    </div>
+
+    <div class = "prod-page-row">
+         
+        <div class = "prod-page-col2">
+            <img src="Images/coconut-charcoal.jpeg">
+            <div class ="prod-page-charcoal">
+                <h2>Coconut Shell</h2>
+                <p>Product description</p>
+                <ul>
+                    <li>Moisture: 15% Max</li>
+                    <li>Dust: 3% Max</li>
+                    
+                    <li>Volatile: 12% to 18% </li>
+                    <li>    Size: Unsized</li>
+                     <li>   Packaging: 50kg or 500kg</li>
+
+                </ul>
+            </div>
+            
+         </div>
+
+    </div>
+
+</section>
+
+<section class="footer">
+    <!-- <h4>About Us</h4>
+    <p>We are the leading producers of fine carbon products from wet and dry coconut shells.<br>We deliver
+        premium quality products that are regulated by industry standards</p>
+
+    <div  class="socials">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div> -->
+    
+</section>
+
+
+
+
+
+
+
+<!-- ------Javascript function------- -->
+<script>
+    var pageLinks = document.getElementById("pageLinks");
+
+    function showMenu() {
+        pageLinks.style.right = "0";
+
+    }
+
+    function hideMenu() {
+        pageLinks.style.right = "-200px";
+        
+
+    }
+
+
+</script>
+
+
+
+
+
+</body>
+
+
+</html>
