@@ -89,7 +89,7 @@ nav {
     font-weight: 600;
 }
 
-.page-links ul li::after {
+.page-links ul li a::after {
     content: '';
     width: 0%;
     height: 2px;
@@ -97,10 +97,16 @@ nav {
     display: block;
     margin: auto;
     transition: 0.5s;
+  
 
 }
 
-.page-links ul li:hover::after {
+.page-links ul li a:hover{
+    color: #1a8dc6;
+    transition: 0.5s;
+}
+
+.page-links ul li a:hover::after {
     width: 100%;
 
 }
